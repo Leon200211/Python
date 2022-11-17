@@ -18,7 +18,7 @@ prepod_name = "none"
 now = datetime.datetime.now()
 
 
-vk_session = vk_api.VkApi(token = "738c30511291d36e6f5549549a5d065fb625af6f5b2055bd5a97003fc92d40dc1dd165609236323e5aec7")
+vk_session = vk_api.VkApi(token = "")
 vk = vk_session.get_api()
 longpol = VkLongPoll(vk_session)
 
