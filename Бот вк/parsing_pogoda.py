@@ -226,13 +226,4 @@ def weather(url, when):
 
 
 
-"""
-city_name = "moscow"
-api_key = "81f8953f98dfe25ad251384300929c47"
-url = f"http://api.openweathermap.org/data/2.5/forecast?q={city_name}&appid={api_key}"
-weather(url, "на завтра")
-#speed_to_point(4)
 
-translator= Translator(from_lang="english",to_lang="russian")
-translation = translator.translate(response['weather'][0]['description'])
-"""
